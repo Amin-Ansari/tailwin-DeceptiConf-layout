@@ -4,5 +4,8 @@
 @tailwind variants;
 
 body {
-  background-color: #fafbff;
+  background-color: white;
+}
+.zindex-1 {
+  z-index: 1;
 }

@@ -10,30 +10,81 @@
       href="src/images/Screenshot 2024-01-09 034042.png"
     />
   </head>
-  <body>
-    <div class="absolute top-0 w-full">
-      <div
-        class="lg:hidden text-center border-b-2 border-b-gray-100 w-full text-blue-500 py-5"
-      >
-        04-06 of Aprill, 2022 Los Angeles, CA
-      </div>
-      <header class="container px-4 mx-auto">
-        <div class="flex justify-center md:justify-between mt-5 items-center">
-          <img
-            src="./src/images/Screenshot 2024-01-09 034042.png"
-            class="h-15"
-            alt="Website Logo"
-          />
-          <div class="hidden lg:block text-blue-500">
-            04-06 of Aprill, 2022 Los Angeles, CA
-          </div>
-          <button
-            class="bg-indigo-600 hidden md:block py-3 px-5 text-lg rounded-xl text-gray-100 font-semibold"
-          >
-            Get your Ticket
-          </button>
+  <body class="bg-white">
+    <div class="relative">
+      <div class="absolute top-0 w-full z-[2]">
+        <div
+          class="lg:hidden text-center border-b-[1px] border-b-indigo-200 w-full text-blue-500 py-5"
+        >
+          04-06 of Aprill, 2022 Los Angeles, CA
         </div>
-      </header>
+        <header class="container px-4 mx-auto">
+          <div class="flex justify-center md:justify-between mt-5 items-center">
+            <img
+              src="./src/images/Screenshot 2024-01-09 034042.png"
+              class="h-15"
+              alt="Website Logo"
+            />
+            <div class="hidden lg:block text-blue-500">
+              04-06 of Aprill, 2022 Los Angeles, CA
+            </div>
+            <button
+              class="bg-blue-500 hover:bg-blue-700 transition-all hidden md:block py-3 px-4 text-lg rounded-xl text-gray-100 font-semibold"
+            >
+              Get your Ticket
+            </button>
+          </div>
+        </header>
+      </div>
+      <div class="relative bg-indigo-50 px-4 backdrop:blur-3xl overflow-hidden">
+        <img
+          src="./src//images/Banner-image.png"
+          alt="Banner"
+          class="z-0 absolute top-0 left-0 translate-x-[-75%] md:translate-x-[-40%] lg:translate-x-[-30%] h-[140%] max-w-3xl"
+        />
+        <div class="pt-52 max-w-3xl mx-auto relative zindex-1">
+          <h1
+            class="text-5xl text-left md:text-center md:text-7xl font-bold text-blue-600 mx-auto zindex-1"
+          >
+            A design conference
+            <span class="block pt-3">for the dark side.</span>
+          </h1>
+          <p class="py-3 md:py-8 text-lg md:text-xl text-indigo-900">
+            The next generation of web users are tech-savvy and suspicious. They
+            know how to use dev tools, they can detect a phishing scam from a
+            mile away, and they certainly aren’t accepting any checks from
+            Western Union.
+          </p>
+          <p class="py-3 md:py-8 text-lg md:text-xl text-indigo-900">
+            At DeceptiConf you’ll learn about the latest dark patterns being
+            developed to trick even the smartest visitors, and you’ll learn how
+            to deploy them without ever being detected.
+          </p>
+        </div>
+        <div class="max-w-3xl py-5 pb-20 z-10 relative mx-auto">
+          <ul class="flex justify-center shrink-0 flex-wrap *:text-indigo-900">
+            <li class="text-left w-[50%] lg:w-[calc(100%/4)]">
+              <h2 class="text-blue-600">Speakers</h2>
+              <p class="font-semibold text-2xl">18</p>
+            </li>
+            <li class="text-left w-[50%] lg:w-[calc(100%/4)]">
+              <h2 class="text-blue-600">People attenting</h2>
+              <p class="font-semibold text-2xl">2,091</p>
+            </li>
+            <li class="text-left w-[50%] lg:w-[calc(100%/4)]">
+              <h2 class="text-blue-600">Venue</h2>
+              <p class="font-semibold text-2xl">Stapeles center</p>
+            </li>
+            <li class="text-left w-[50%] lg:w-[calc(100%/4)]">
+              <h2 class="text-blue-600">Location</h2>
+              <p class="font-semibold text-2xl">Los Angeles</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="absolute bottom-0 w-full inset-x-0 bg-gradient-to-t from-white h-52"
+      ></div>
     </div>
   </body>
 </html>
